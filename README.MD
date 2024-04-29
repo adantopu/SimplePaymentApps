@@ -4,7 +4,7 @@
 ## To Install
 
 1. Ensure Node.js is installed
-2. Clone this repository - `git clone https://github.com/.git`
+2. Clone this repository - `git clone https://github.com/adantopu/SimplePaymentApps.git`
 3. Install the dependences:
     1. `cd SimplePaymentApps`
 	2. `cd server`
