@@ -30,7 +30,7 @@ app.post('/payment/deposit',(req,res)=>{
     }
 
     //send above as payload
-    jwt.sign({deposit},'AlexanderDandyHartonoPutra',(err,token)=>{
+    jwt.sign({deposit},'QWxleGFuZGVyRGFuZHlIYXJ0b25vUHV0cmE=',(err,token)=>{
         res.json({
             token
         })
@@ -56,7 +56,7 @@ app.post('/payment/withdraw',(req,res)=>{
     }
 
     //send above as payload
-    jwt.sign({withdraw},'AlexanderDandyHartonoPutra',(err,token)=>{
+    jwt.sign({withdraw},'QWxleGFuZGVyRGFuZHlIYXJ0b25vUHV0cmE=',(err,token)=>{
         res.json({
             token
         })
@@ -65,7 +65,7 @@ app.post('/payment/withdraw',(req,res)=>{
 
 app.get('/payment/paymentStatus',verifyToken,(req,res)=>{
 
-    jwt.verify(req.token,'AlexanderDandyHartonoPutra',(err,authData)=>{
+    jwt.verify(req.token,'QWxleGFuZGVyRGFuZHlIYXJ0b25vUHV0cmE=',(err,authData)=>{
         if(err){
             res.json({
                 message:"Payment Failed",
