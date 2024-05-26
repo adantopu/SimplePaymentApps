@@ -11,4 +11,4 @@
 4. Start the server: `node server.js`
 5. Visit http://localhost:3000 or http://127.0.0.1:3000 in a browser
 
-##Using POSTMAN for testing if API works as itended or not
+## Using POSTMAN for testing if API works as itended or not
