@@ -5,7 +5,7 @@
 [![My Skills](https://skillicons.dev/icons?i=js,html,css)](https://skillicons.dev)
 
 ## Made using this framework:
-[![My Skills](https://skillicons.dev/icons?i=nodejs,tailwind,npm)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=nodejs,tailwind,npm,express)](https://skillicons.dev)
 
 ## Made using this IDE and OS:
 [![My Skills](https://skillicons.dev/icons?i=vscodium,mint)](https://skillicons.dev)
